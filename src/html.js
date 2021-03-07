@@ -18,6 +18,8 @@ export default function HTML(props) {
         />
         {props.headComponents}
        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+       <script src="https://threejs.org/build/three.js"></script> 
+
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
