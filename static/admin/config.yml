@@ -1,7 +1,14 @@
 backend:
-  name: github
-  repo: hjoseph96/codename-mystery-babylon-site
-
+  name: git-gateway
+  local_backend: true
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+    
 media_folder: content/assets
 public_folder: ../assets
 
