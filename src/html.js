@@ -17,7 +17,7 @@ export default function HTML(props) {
           href="opensearch.xml"
         />
         {props.headComponents}
-         <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+       <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

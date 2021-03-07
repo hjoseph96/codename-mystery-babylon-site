@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Codename: Mystery Babylon`,
+    author: `Herbert Joseph`,
+    description: `Tactical RPG inspired by Fire Emblem and Shining Force.`,
+    siteUrl: `https://mysterybabylon.io/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `CodenameBabylon`,
     },
   },
   plugins: [
