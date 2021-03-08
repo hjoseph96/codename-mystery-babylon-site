@@ -34,6 +34,11 @@ class PurpleSmoke extends React.Component {
     });
   }
 
+  componentDidMount() {
+    this.init.bind(this).call();
+    this.animate.bind(this).call();
+  }
+
   init() {
       this.state.renderer.setSize( window.innerWidth, window.innerHeight );
 
@@ -58,9 +63,12 @@ class PurpleSmoke extends React.Component {
           this.state.smokeParticles.push(particle);
       }
 
+
       this.state.renderer.domElement.style.width = '100%';
       this.state.renderer.domElement.style.height = '100vh';
-      document.body.appendChild( this.state.renderer.domElement );
+      this.state.renderer.domElement.style.zIndex = -1;
+
+      this.mount.appendChild( this.state.renderer.domElement );
   }
 
   animate() {
@@ -87,9 +95,10 @@ class PurpleSmoke extends React.Component {
   }
 
   render() {
-    this.init.bind(this).call();
-    this.animate.bind(this).call();
-    return null;
+
+    return (
+      <div ref={ref => (this.mount = ref)} style={{ zIndex: -1, position: 'absolute', width: `100%`, height: `100vh` }}></div>
+    )
   }
 }
 
