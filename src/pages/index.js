@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 
 import SEO from "../components/seo"
@@ -36,7 +36,14 @@ class IndexPage extends React.Component {
               <div className="social">
                 <a href="https://twitter.com/CodenameBabylon/" className="icon-button twitter" target="_blank" rel="noreferrer">
 
-                  <FontAwesomeIcon icon={faTwitter} class="icon-twitter"/>
+                  <FontAwesomeIcon icon={faTwitter} className="icon-twitter"/>
+                  <span>
+                  </span>
+                </a>
+
+                <a href="#" className="icon-button discord" target="_blank" rel="noreferrer">
+
+                  <FontAwesomeIcon icon={faDiscord} className="icon-discord"/>
                   <span>
                   </span>
                 </a>
@@ -55,7 +62,8 @@ class IndexPage extends React.Component {
           <div class="logo-container">
 
             <div class="logo-circle">
-              <img src="./CMB_logo.png" alt="Codename: Mystery Babylon Logo" />
+              <img src="./purplefire.gif" class="gray-flames" alt="Purple Flames" />
+              <img src="./CMB_logo.png" class="game-logo" alt="Codename: Mystery Babylon Logo" />
             </div>
           </div>
         </div>

@@ -66,7 +66,7 @@ class PurpleSmoke extends React.Component {
 
       this.state.renderer.domElement.style.width = '100%';
       this.state.renderer.domElement.style.height = '100vh';
-      this.state.renderer.domElement.style.zIndex = -1;
+      this.state.renderer.domElement.style.zIndex = -999;
 
       this.mount.appendChild( this.state.renderer.domElement );
   }
@@ -97,7 +97,7 @@ class PurpleSmoke extends React.Component {
   render() {
 
     return (
-      <div ref={ref => (this.mount = ref)} style={{ zIndex: -1, position: 'absolute', width: `100%`, height: `100vh` }}></div>
+      <div ref={ref => (this.mount = ref)} style={{ zIndex: -999, position: 'absolute', width: `100%`, height: `100vh` }}></div>
     )
   }
 }
