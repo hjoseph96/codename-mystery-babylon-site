@@ -6,10 +6,35 @@
     position: fixed;
     width: 100%;
     height: 125px;
+    padding-top: 33px;
+
+    .links {
+      display: inline-flex;
+      position: relative;
+      top: 6px;
+      margin-right: 100px;
+
+      a {
+        margin-left: 60px;
+        text-decoration: none;
+        box-shadow: none;
+        font-family: "Roboto";
+        color: ivory;
+        font-size: 21px;
+        letter-spacing: 1.2px;
+        font-weight: 500;
+
+        &:hover, &:focus {
+          box-shadow: 0 1px 0 0 currentColor;
+        }
+      }
+    }
 
     .social {
+      display: inline-flex;
       margin-right: 7em;
     }
+
 
     .icon-button {
       background-color: transparent;
@@ -141,6 +166,25 @@
         top: 60px;
         left: 38px;
       }
+    }
+  }
+
+  .coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 136px;
+
+    h2 {
+      color: lavender;
+      font-family: "Revans Medium";
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+
+    img {
+      width: 200px;
     }
   }
 }

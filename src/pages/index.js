@@ -30,19 +30,19 @@ class IndexPage extends React.Component {
 
             <div>
               <div class="links">
-
+                <a href="#">The Game</a>
+                <a href="#">Devlog</a>
+                <a href="#">Our Team</a>
               </div>
 
               <div className="social">
                 <a href="https://twitter.com/CodenameBabylon/" className="icon-button twitter" target="_blank" rel="noreferrer">
-
                   <FontAwesomeIcon icon={faTwitter} className="icon-twitter"/>
                   <span>
                   </span>
                 </a>
 
-                <a href="#" className="icon-button discord" target="_blank" rel="noreferrer">
-
+                <a href="https://discord.gg/CaJCFcXB" className="icon-button discord" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={faDiscord} className="icon-discord"/>
                   <span>
                   </span>
@@ -53,18 +53,27 @@ class IndexPage extends React.Component {
 
           <PurpleSmoke />
 
-          <div class="header">
+          <div className="header">
             <h1>
               Codename: Mystery Babylon
             </h1>
           </div>
 
-          <div class="logo-container">
+          <div className="logo-container">
 
-            <div class="logo-circle">
-              <img src="./purplefire.gif" class="gray-flames" alt="Purple Flames" />
-              <img src="./CMB_logo.png" class="game-logo" alt="Codename: Mystery Babylon Logo" />
+            <div className="logo-circle">
+              <img src="./purplefire.gif" className="gray-flames" alt="Purple Flames" />
+              <img src="./CMB_logo.png" className="game-logo" alt="Codename: Mystery Babylon Logo" />
             </div>
+          </div>
+
+          <div className="coming-soon">
+            <h2>Coming Soon</h2>
+            <ul class="platform-list">
+              <li class="steam">
+                <img src="./steam-logo.png" alt="Steam Logo" />
+              </li>
+            </ul>
           </div>
         </div>
       </>
