@@ -1,55 +1,37 @@
-import React from "react"
-import { Link } from "gatsby"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import loadable from '@loadable/component';
 
+import SEO from "../components/seo";
 
-import SEO from "../components/seo"
-import Button from "../components/button"
-
-import loadable from '@loadable/component'
 import '../fonts/fonts.scss';
 import '../scss/home.scss';
 
-
+import Navbar from '../components/Navbar'
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class IndexPage extends React.Component {
   render() {
-
     return (
       <>
         <div class="home">
           <SEO
             title="Home"
-            keywords={[`Codename`, `Mystery`, `Babylon`, `SRPG`, `Fire Emblem`, `Shining Force`]}
+            keywords={[
+              `Codename`,
+              `Mystery`,
+              `Babylon`,
+              `SRPG`,
+              `Fire Emblem`,
+              `Shining Force`,
+              `Indie`,
+              `Game`,
+              `Tactical`,
+              `RPG`,
+              `Occult`
+            ]}
           />
 
-          <div class="navbar">
-            <div></div>
-
-            <div>
-              <div class="links">
-                <a href="#">The Game</a>
-                <a href="#">Devlog</a>
-                <a href="#">Our Team</a>
-              </div>
-
-              <div className="social">
-                <a href="https://twitter.com/CodenameBabylon/" className="icon-button twitter" target="_blank" rel="noreferrer">
-                  <FontAwesomeIcon icon={faTwitter} className="icon-twitter"/>
-                  <span>
-                  </span>
-                </a>
-
-                <a href="https://discord.gg/CaJCFcXB" className="icon-button discord" target="_blank" rel="noreferrer">
-                  <FontAwesomeIcon icon={faDiscord} className="icon-discord"/>
-                  <span>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
+          <Navbar />
 
           <PurpleSmoke />
 
