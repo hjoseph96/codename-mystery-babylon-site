@@ -6,7 +6,7 @@
     position: fixed;
     width: 100%;
     height: 125px;
-    padding-top: 33px;
+    padding-top: 16px;
 
     .links {
       display: inline-flex;
@@ -20,7 +20,7 @@
         box-shadow: none;
         font-family: "Roboto";
         color: ivory;
-        font-size: 21px;
+        font-size: 18px;
         letter-spacing: 1.2px;
         font-weight: 500;
 
@@ -130,7 +130,7 @@
       font-family: "Draconis Regular";
       letter-spacing: 5px;
       text-rendering: geometricprecision;
-      font-size: 5em;
+      font-size: 4.3em;
       font-weight: 100;
       text-shadow: 6px 6px #272623;
     }
@@ -146,8 +146,8 @@
       padding: 3em 4em;
       border-radius: 999px;
       position: relative;
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 350px;
       z-index: -2;
 
       img.gray-flames {
@@ -161,10 +161,10 @@
       }
 
       img.game-logo {
-        width: 222px;
-        position: relative;
-        top: 60px;
-        left: 38px;
+        width: 180px;
+        position: absolute;
+        top: 102px;
+        right: 92px;
       }
     }
   }
@@ -180,7 +180,9 @@
       color: lavender;
       font-family: "Revans Medium";
       font-size: 36px;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
+      font-weight: 800;
+      text-rendering: geometricPrecision;
     }
 
     img {
