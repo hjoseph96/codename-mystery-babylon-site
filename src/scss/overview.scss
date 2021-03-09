@@ -1,0 +1,60 @@
+#fp-nav.fp-right {
+  ul li a {
+    box-shadow: none;
+    span { background-color: lavender; }
+  }
+}
+
+.overview {
+  .section {
+    main {
+      margin: 0 auto;
+      width: 75vw;
+      height: 80vh;
+
+      h2 {
+        text-align: center;
+        color: lavender;
+        font-family: "Draconis Italic";
+        letter-spacing: 2px;
+        font-size: 45px;
+        text-rendering: geometricPrecision;
+        font-weight: 100;
+        margin-bottom: 1.3em;
+      }
+
+      .scroll {
+        margin: 0 auto;
+        width: 1190px;
+        height: 1300px;
+        color: white;
+        background: url(/scroll.png);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -148px;
+
+        .text-container {
+          height: 590px;
+          width: 724px;
+          left: 246px;
+          top: 305px;
+          position: relative;
+
+          p {
+            font-family: "Vecna";
+            margin: 3.3em 3em 3em;
+            font-size: 35px;
+            color: #983223;
+            font-weight: 500;
+            letter-spacing: 1.2px;
+            line-height: 1.7;
+            text-rendering: geometricPrecision;
+            padding-top: 1.4em;
+          }
+        }
+      }
+    }
+  }
+}

@@ -35,3 +35,13 @@
   font-weight: normal;
   src: local('Revans Medium'), url('RevansMedium-7BEOK.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Vecna';
+    src:url('Vecna.ttf.woff') format('woff'),
+        url('Vecna.ttf.svg#Vecna') format('svg'),
+        url('Vecna.ttf.eot'),
+        url('Vecna.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
