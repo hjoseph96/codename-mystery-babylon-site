@@ -2,9 +2,12 @@ import React from "react";
 import loadable from '@loadable/component';
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import 'plyr-react/dist/plyr.css'
 import '../scss/overview.scss'
 
 import Navbar from '../components/Navbar';
+
+const Plyr = loadable(() => import('plyr-react'));
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 
@@ -12,8 +15,6 @@ class Overview extends React.Component {
   render() {
     const FullPage = () => (
       <ReactFullpage
-        //fullpage options
-        licenseKey = {'YOUR_KEY_HERE'}
         scrollingSpeed = {1000}
         navigation
 
@@ -30,13 +31,28 @@ class Overview extends React.Component {
                         The rich and powerful of the land operate secret
                         organizations, unbeknownst to most. Their greed and depravity
                         knows no bounds, as they covertly wrest control of all the nations.
+
+                        <br></br> <br></br>
+
+                        <b>It is up to you to bring this injustice to light!</b>
                       </p>
                     </div>
                   </div>
                 </main>
               </div>
               <div className="section">
-                <p>Section 2</p>
+                <main>
+                  <h2>Wage War Against The Beast</h2>
+
+                    <Plyr controls
+                      source={
+                        {
+                          type: "video",
+                          sources: [{src: "/battle.mp4"}]
+                        }
+                      }
+                    />
+                </main>
               </div>
             </ReactFullpage.Wrapper>
           );
