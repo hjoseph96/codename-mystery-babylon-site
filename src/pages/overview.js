@@ -6,6 +6,7 @@ import 'plyr-react/dist/plyr.css'
 import '../scss/overview.scss'
 
 import Navbar from '../components/Navbar';
+import BackHomeLogo from '../components/BackHomeLogo';
 
 const Plyr = loadable(() => import('plyr-react'));
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
@@ -63,6 +64,7 @@ class Overview extends React.Component {
     return (
       <div className="overview">
         <Navbar />
+        <BackHomeLogo />
         <PurpleSmoke />
 
         <FullPage />
