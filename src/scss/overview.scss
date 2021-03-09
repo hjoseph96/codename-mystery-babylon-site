@@ -5,8 +5,18 @@
   }
 }
 
+#fullpage, .fp-tableCell {
+  pointer-events: none;
+}
+
+.plyr {
+  pointer-events: all;
+}
+
 .overview {
   .section {
+    pointer-events: none;
+
     main {
       margin: 0 auto;
       width: 75vw;
