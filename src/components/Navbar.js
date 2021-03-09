@@ -15,7 +15,7 @@ class Navbar extends React.Component {
         <div>
           <div class="links">
             <Link to="/overview">The Game</Link>
-            <a href="#">Devlog</a>
+            <Link to="/devlog">Devlog</Link>
             <a href="#">Our Team</a>
           </div>
 
