@@ -16,7 +16,7 @@ class Overview extends React.Component {
   render() {
     const FullPage = () => (
       <ReactFullpage
-        scrollingSpeed = {1000}
+        scrollingSpeed = {1996}
         navigation
 
         render={({ state, fullpageApi }) => {
