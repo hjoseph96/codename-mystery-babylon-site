@@ -16,7 +16,7 @@ class Overview extends React.Component {
   render() {
     const FullPage = () => (
       <ReactFullpage
-        scrollingSpeed = {1996}
+        scrollingSpeed = {1656}
         navigation
 
         render={({ state, fullpageApi }) => {
@@ -49,7 +49,9 @@ class Overview extends React.Component {
                       source={
                         {
                           type: "video",
-                          sources: [{src: "/battle.mp4"}]
+                          sources: [
+                            { src: "/map tour.mp4" }
+                          ]
                         }
                       }
                     />
