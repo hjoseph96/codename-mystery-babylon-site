@@ -74,23 +74,13 @@ From there, I went on to create the basis of our GUI and battle system:
 
 ![Attack Forecast](https://i.imgur.com/9pAhlrk.png "Attack Forecast")
 
-
-
 ![Battle System](https://i.imgur.com/zx6sbtP.gif "Battle System")
-
-
 
 Which brings us very close to current day.
 
-
-
 Since then, I've continued work on this battle system. At least, until mod support up and smacked me in the face!
 
-
-
 Being on FEUniverse, I found a very robust modding community around Fire Emblem's GBA roms. Not only there, there's another huge community around SRPG Studio. Seeing this, I came to believe offering mod support would be a wise choice.
-
-
 
 To that end, we've been using `ScriptableObjects` internally for a great deal of our data storage. I came across this [article](https://www.turiyaware.com/blog/creating-a-moddable-unity-game), suggesting serialization into JSON. So, I began to write serializers for our `ScriptableObjects` that allow us to write to JSON and read JSON back into `ScriptableObjects`. A few examples:
 
@@ -132,7 +122,6 @@ A Sword Weapon:
   }
 }
 ```
-
 
 A Unit's class:
 
@@ -227,7 +216,24 @@ A Unit's class:
     "Hedge"
   ]
 }
-
 ```
 
-And more to be done. Currently, I use ScriptableObjects internally and have them serialized to a folder in the game. From there, I create from JSON and set the references to any objects in the scene. I wrote `Repository` classes that handle the serialization and deserialization processes and espose theirpublic static methods within Editor button operations (using Odin Inspector).
+And more to be done. Currently, I use ScriptableObjects internally and have them serialized to a folder in the game. From there, I create from JSON and set the references to any objects in the scene. I wrote `Repository` classes that handle the serialization and deserialization processes and expose their `public static` methods within Editor button operations (using Odin Inspector).
+
+The end goal to have all data be editable by JSON and create external GUI tools that create these JSON files, similar to this:
+
+
+
+![FEBuilder](https://feuniverse.us/uploads/default/original/2X/c/c91ef567497f50cca6fd7caa3d431d09fee74d5d.png "FEBuilder")
+
+
+
+I imagine it'd be a suite of tools to edit preexisting and create new Units, Items, Maps, Classes, Abilities, etc. No level editor, but imports from Tiled.
+
+
+
+This is a big Kickstarter goal for me, I'm merely setting the groundwork by having all data serialized into JSON.
+
+
+
+That about wraps up our rather long synopsis! I'll be back wit progress updates.
