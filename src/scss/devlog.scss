@@ -15,7 +15,10 @@
 
 .devlog-post {
   .centered-content {
-    p { line-height: 2.5; }
+    p {
+      line-height: 3;
+      letter-spacing: 0.6px;
+    }
 
     code {
       background-color: darkgrey;
