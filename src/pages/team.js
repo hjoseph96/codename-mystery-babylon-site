@@ -86,7 +86,7 @@ class Team extends React.Component {
               </div>
 
               <div className="info">
-                <h3>Bejamin Carr</h3>
+                <h3>Benjamin Carr</h3>
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
