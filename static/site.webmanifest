@@ -1,0 +1,14 @@
+{
+    "name": "Codename Mystery Babylon",
+    "short_name": "Codename Mystery Babylon",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#5f3cba",
+    "background_color": "#5f3cba",
+    "display": "standalone"
+}
