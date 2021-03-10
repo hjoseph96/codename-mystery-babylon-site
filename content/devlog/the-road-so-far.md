@@ -3,7 +3,7 @@ path: the-road-so-far
 date: 2021-03-10T15:44:39.400Z
 title: The Road So Far
 description: Breakdown on where the project began and how's its progressed to
-  it's current state
+  it's current state.
 ---
 Welcome!
 
