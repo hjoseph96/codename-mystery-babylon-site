@@ -19,4 +19,8 @@ Our grid system relied upon a third-party plugin for Unity called [Grids 2D](htt
 
 However, our other programmer (Artemii on our [Team](https://mysterybabylon.io/team) page) rightfully decided we should do away with this party reliance for such a core mechanic and write our own implementation. So, we did!
 
-We created a new grid system buillt upon Unity's built-in Grid component
+We created a new grid system built upon Unity's built-in Grid component. This worked out very well, and was much clearer to both of us programmers now that the code was not abstracted away inside of a 3rd party asset in another folder -- but lived inside our own `Scripts/` folder.
+
+
+
+Before our switch, I was using 2D Box Colliders with tags attached (ie: Land Obstacle, Air Obstacle) to set grid cells as traversable
