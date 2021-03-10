@@ -1,7 +1,7 @@
 ---
 path: the-road-so-far
 date: 2021-03-10T15:44:39.400Z
-title: The Road So Far
+title: "The Road So Far: 2D Tactical RPG Setup for Unity"
 description: Breakdown on where the project began and how's its progressed to
   it's current state.
 ---
