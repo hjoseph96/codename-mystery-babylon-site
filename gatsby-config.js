@@ -18,6 +18,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-fontawesome-css`,
+    'gatsby-plugin-robots-txt',
     {
       resolve: "gatsby-plugin-local-search",
       options: {
