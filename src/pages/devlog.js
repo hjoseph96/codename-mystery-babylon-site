@@ -12,7 +12,6 @@ import BackHomeLogo from '../components/BackHomeLogo'
 
 import '../scss/devlog.scss';
 
-import SEO from "../components/seo";
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class Devlog extends React.Component {
