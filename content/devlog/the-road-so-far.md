@@ -236,4 +236,4 @@ This is a big Kickstarter goal for me, I'm merely setting the groundwork by havi
 
 
 
-That about wraps up our rather long synopsis! I'll be back wit progress updates.
+That about wraps up our rather long synopsis! I'll be back with progress updates.
