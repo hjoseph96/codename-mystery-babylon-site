@@ -12,6 +12,7 @@ import BackHomeLogo from '../components/BackHomeLogo'
 
 import '../scss/devlog.scss';
 
+import SEO from "../components/seo";
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class Devlog extends React.Component {
@@ -23,6 +24,23 @@ class Devlog extends React.Component {
 
     return (
       <div className="devlog">
+        <SEO
+          title="Devlog"
+          keywords={[
+            `Codename`,
+            `Mystery`,
+            `Babylon`,
+            `SRPG`,
+            `Fire Emblem`,
+            `Shining Force`,
+            `Indie`,
+            `Game`,
+            `Tactical`,
+            `RPG`,
+            `Occult`
+          ]}
+        />
+
         <PurpleSmoke />
         <BackHomeLogo />
         <Layout location={this.props.location} title={siteTitle}>

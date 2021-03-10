@@ -7,6 +7,8 @@ import '../scss/overview.scss'
 import '../fonts/fonts.scss';
 
 
+
+import SEO from "../components/seo";
 import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 
@@ -67,6 +69,23 @@ class Overview extends React.Component {
 
     return (
       <div className="overview">
+        <SEO
+          title="Overview"
+          keywords={[
+            `Codename`,
+            `Mystery`,
+            `Babylon`,
+            `SRPG`,
+            `Fire Emblem`,
+            `Shining Force`,
+            `Indie`,
+            `Game`,
+            `Tactical`,
+            `RPG`,
+            `Occult`
+          ]}
+        />
+
         <Navbar />
         <BackHomeLogo />
         <PurpleSmoke />

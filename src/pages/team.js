@@ -14,7 +14,7 @@ import artemiiImg from '../../static/artemii.png';
 import scythuzImg from '../../static/scythuz.png';
 import vnittiImg from '../../static/vnitti.png';
 
-
+import SEO from "../components/seo";
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 
@@ -22,6 +22,23 @@ class Team extends React.Component {
   render() {
     return (
       <div className="team">
+        <SEO
+          title="Our Team"
+          keywords={[
+            `Codename`,
+            `Mystery`,
+            `Babylon`,
+            `SRPG`,
+            `Fire Emblem`,
+            `Shining Force`,
+            `Indie`,
+            `Game`,
+            `Tactical`,
+            `RPG`,
+            `Occult`
+          ]}
+        />
+
         <Navbar />
         <BackHomeLogo />
         <PurpleSmoke />
@@ -73,7 +90,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="htpss://twitter.com/scythuz">
+                  <a href="https://twitter.com/scythuz">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -90,7 +107,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="htpss://twitter.com/vnitti_art">
+                  <a href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
