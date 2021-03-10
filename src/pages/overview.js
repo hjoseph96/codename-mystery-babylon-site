@@ -4,6 +4,8 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 import 'plyr-react/dist/plyr.css'
 import '../scss/overview.scss'
+import '../fonts/fonts.scss';
+
 
 import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';

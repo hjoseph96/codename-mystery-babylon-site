@@ -1,0 +1,89 @@
+.team {
+  main {
+    margin: 0 auto;
+    width: 75vw;
+    height: 85vh;
+    position: relative;
+    top: 160px;
+
+    h1 {
+      color: white;
+      text-align: center;
+      padding-top: 2em;
+      font-family: "Roboto";
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    ul.team-list {
+      width: 1250px;
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+
+      li {
+        width: 600px;
+        margin: 10px;
+        list-style: none;
+        display: inline-flex;
+
+        background-color: rgba(0,0,0,0.4);
+
+        .photo {
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          padding-top: 2em;
+
+          img {
+            width: 150px;
+
+            &.artemii {
+              width: 141px;
+              position: relative;
+              top: -33px;
+            }
+
+            &.pixel-artist {
+              width: 141px;
+              position: relative;
+              top: -20px;
+            }
+          }
+        }
+
+        .info {
+          h3 {
+            color: white;
+            margin-top: 1.6em;
+            margin-bottom: 3px;
+          }
+
+          span {
+            color: white;
+          }
+
+          .socials {
+            padding-top: 40px;
+
+            a {
+              box-shadow: none;
+
+              svg {
+
+              }
+
+              .fa-gmail {
+                content: url('/gmail.svg');
+                height: 1em;
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
