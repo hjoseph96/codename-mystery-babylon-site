@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "gatsby"
 
 import '../scss/back-home-logo.scss'
+import purpleFireImg from "../../static/purplefire.gif";
+import logoImg from "../../static/CMB_logo.png";
 
 class BackHomeLogo extends React.Component {
   render() {
@@ -10,8 +12,8 @@ class BackHomeLogo extends React.Component {
         <div className="back-home-logo">
 
           <div className="logo-circle">
-            <img src="./purplefire.gif" className="gray-flames" alt="Purple Flames" />
-            <img src="./CMB_logo.png" className="game-logo" alt="Codename: Mystery Babylon Logo" />
+            <img src={purpleFireImg} className="gray-flames" alt="Purple Flames" />
+            <img src={logoImg} className="game-logo" alt="Codename: Mystery Babylon Logo" />
           </div>
         </div>
       </Link>

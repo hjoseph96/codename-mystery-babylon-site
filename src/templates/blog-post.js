@@ -3,10 +3,12 @@ import { Link, graphql } from "gatsby"
 import loadable from '@loadable/component';
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
+import "../scss/devlog.scss"
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Navbar from "../components/Navbar"
+import BackHomeLogo from "../components/BackHomeLogo"
 import { rhythm, scale } from "../utils/typography"
 
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
@@ -19,7 +21,8 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
-      <>
+      <div class="devlog-post">
+        <BackHomeLogo />
         <PurpleSmoke />
         <Layout location={this.props.location} title={siteTitle}>
           <SEO
@@ -70,7 +73,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           </ul>
         </Layout>
-      </>
+      </div>
     )
   }
 }

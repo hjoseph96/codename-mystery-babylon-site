@@ -10,3 +10,34 @@
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   }
 }
+
+.devlog-post {
+  .centered-content {
+    width: 41vw;
+    background-color: white;
+    height: 95vh;
+    padding: 4.625rem 11.3125rem !important;
+    position: relative;
+    top: 36px;
+    overflow: scroll;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+    p { line-height: 2.5; }
+
+    code {
+      background-color: darkgrey;
+      padding: 1px 5px;
+      border-radius: 4px;
+      color: mintcream;
+      font-weight: 900;
+    }
+
+    .grvsc-container code {
+      background-color: transparent;
+      color: white;
+      font-weight: 400;
+      padding: 0;
+      border-radius: 0;
+    }
+  }
+}
