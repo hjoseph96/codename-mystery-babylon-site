@@ -54,7 +54,7 @@ class Overview extends React.Component {
                         {
                           type: "video",
                           sources: [
-                            { src: "/map tour.mp4" }
+                            { src: "kUhchDhwvUc", provider: 'youtube' }
                           ]
                         }
                       }
