@@ -10,6 +10,8 @@ import Navbar from '../components/Navbar'
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class IndexPage extends React.Component {
+  const logoStyle = {width: '660px' };
+
   render() {
     return (
       <>
@@ -36,7 +38,7 @@ class IndexPage extends React.Component {
           <PurpleSmoke />
 
           <div className="header">
-            <img src="/logo.png" style={{width: '660px'}}"/>
+            <img src="/logo.png" style={logoStyle}"/>
           </div>
 
           <div className="logo-container">
