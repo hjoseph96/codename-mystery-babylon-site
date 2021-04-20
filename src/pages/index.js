@@ -10,9 +10,11 @@ import Navbar from '../components/Navbar'
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class IndexPage extends React.Component {
-  const logoStyle = {width: '660px' };
+  
 
   render() {
+    const logoStyle = {width: '600px' };
+    
     return (
       <>
         <div class="home">
