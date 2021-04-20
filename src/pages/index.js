@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
           <PurpleSmoke />
 
           <div className="header">
-            <img src="/logo.png" style="width: 660px;">
+            <img src="/logo.png" style="width: 660px;"/>
           </div>
 
           <div className="logo-container">
