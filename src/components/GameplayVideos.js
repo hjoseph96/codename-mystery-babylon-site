@@ -15,7 +15,8 @@ class GameplayVideos extends React.Component {
         type: "video",
         sources: [
             {
-                src: "/battle_sprite_showcase.mp4",
+                src: "538973820",
+                provider: 'vimeo'
             }
         ]
     };
@@ -33,7 +34,8 @@ class GameplayVideos extends React.Component {
         type: "video",
         sources: [
             {
-                src: "/map_transitions.mp4",
+                src: "538950487",
+                provider: 'vimeo'
             }
         ]
     };
@@ -60,7 +62,8 @@ class GameplayVideos extends React.Component {
         type: "video",
         sources: [
             {
-                src: "/start_screen.mp4",
+                src: "538973847",
+                provider: 'vimeo'
             }
         ]
     };
