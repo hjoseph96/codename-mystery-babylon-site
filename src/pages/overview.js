@@ -1,8 +1,8 @@
 import React from "react";
+
 import loadable from '@loadable/component';
 import ReactFullpage from '@fullpage/react-fullpage';
 
-import 'plyr-react/dist/plyr.css'
 import '../scss/overview.scss'
 import '../fonts/fonts.scss';
 
@@ -12,8 +12,9 @@ import SEO from "../components/seo";
 import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 
-const Plyr = loadable(() => import('plyr-react'));
+
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
+const GameplayVideos = loadable(() => import('../components/GameplayVideos'));
 
 
 class Overview extends React.Component {
@@ -49,16 +50,8 @@ class Overview extends React.Component {
                 <main>
                   <h2>Wage War Against The Beast</h2>
 
-                    <Plyr controls
-                      source={
-                        {
-                          type: "video",
-                          sources: [
-                            { src: "kUhchDhwvUc", provider: 'youtube' }
-                          ]
-                        }
-                      }
-                    />
+                  <GameplayVideos />
+
                 </main>
               </div>
             </ReactFullpage.Wrapper>

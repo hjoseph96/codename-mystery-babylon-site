@@ -20,6 +20,7 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
+
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
@@ -33,6 +34,8 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
+
+
             <p>
               Written by <strong>{author}</strong>, a framework built upon the
               React library.

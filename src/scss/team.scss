@@ -39,6 +39,7 @@
 
           img {
             width: 150px;
+            border-radius: 90px;
 
             &.artemii {
               width: 141px;
@@ -70,10 +71,17 @@
 
             a {
               box-shadow: none;
-
-              svg {
-
+              margin: 0 10px 0px 0;
+              
+              .fa-youtube{
+                color: red;
               }
+
+              .fa-jedi {
+                color: indigo;
+              }
+
+              .fa-facebook { color: cornflowerblue; }
 
               .fa-gmail {
                 content: url('/gmail.svg');
