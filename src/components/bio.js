@@ -40,7 +40,7 @@ function Bio() {
               Written by <strong>{author}</strong>, a framework built upon the
               React library.
               {` `}
-              <a href={`https://twitter.com/Jtechniquea2z`}>
+              <a href={`https://twitter.com/Copywright3`}>
                 Follow me on Twitter
               </a>
             </p>
