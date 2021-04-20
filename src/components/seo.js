@@ -25,7 +25,7 @@ function SEO({ description, lang, meta, keywords, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = "Codename: Mystery Babylon is a 16-bit Tactical RPG inspired by Fire Emblem, Shining Force, and Suikoden. Those in power are colluding in the darkness and performing wicked deeds. In this medieval, occult tale -- delve into the abyss."
 
   return (
     <Helmet
