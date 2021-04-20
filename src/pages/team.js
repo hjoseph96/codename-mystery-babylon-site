@@ -60,7 +60,7 @@ class Team extends React.Component {
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a href="https://twitter.com/Copywright3">
+                  <a target="_blank" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -77,7 +77,7 @@ class Team extends React.Component {
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a href="mailto:tazdraperm.dev@gmail.com">
+                  <a target="_blank" href="mailto:tazdraperm.dev@gmail.com">
                     <span class="fab fa-gmail fa-lg"></span>
                   </a>
                 </div>
@@ -94,7 +94,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="http://www.derwincastillo.com/gallery.html">
+                  <a target="_blank" href="http://www.derwincastillo.com/gallery.html">
                     <FontAwesomeIcon icon={faJedi} />
                   </a>
 
@@ -115,7 +115,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="https://www.facebook.com/danielnoronhapixelart">
+                  <a target="_blank" href="https://www.facebook.com/danielnoronhapixelart">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
                 </div>
@@ -132,7 +132,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="https://www.twitter.com/zaicucH">
+                  <a target="_blank" href="https://www.twitter.com/zaicucH">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -149,7 +149,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a href="https://twitter.com/vnitti_art">
+                  <a target="_blank" href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -166,13 +166,13 @@ class Team extends React.Component {
                 <span className="role">Composer</span>
 
                 <div className="socials">
-                  <a href="http://andrewlivecchi.com">
+                  <a target="_blank" href="http://andrewlivecchi.com">
                     <FontAwesomeIcon icon={faJedi} />
                   </a>
-                  <a href="https://www.youtube.com/c/AndrewLiVecchi">
+                  <a target="_blank" href="https://www.youtube.com/c/AndrewLiVecchi">
                     <FontAwesomeIcon icon={faYoutube} />
                   </a>
-                  <a href="twitter.com/AndrewLivecchi">
+                  <a target="_blank" href="https://twitter.com/AndrewLivecchi">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
