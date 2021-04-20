@@ -13,8 +13,6 @@ class IndexPage extends React.Component {
   
 
   render() {
-    const logoStyle = {width: '600px' };
-    
     return (
       <>
         <div class="home">
@@ -40,7 +38,7 @@ class IndexPage extends React.Component {
           <PurpleSmoke />
 
           <div className="header">
-            <img src="/logo.png" style={logoStyle}"/>
+            <img src="/logo.png"/>
           </div>
 
           <div className="logo-container">
