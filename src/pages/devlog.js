@@ -50,11 +50,11 @@ class Devlog extends React.Component {
             </p>
 
             <div className="other-sites">
-              <a target="_blank" href="https://forums.tigsource.com/index.php?topic=69415.0">
+              <a target="_blank" rel="noreferrer" href="https://feuniverse.us/t/devlog-codename-mystery-babylon-est-late-2021-2022-kickstarter-june-15th/11036">
                 <img src="https://feuniverse.us/uploads/default/original/3X/0/2/023677bb9866878fd66792c97736bacb8ce7d86a.png" className="feuniverse" />
               </a>
 
-              <a target="_blank" href="https://feuniverse.us/t/devlog-codename-mystery-babylon-est-late-2021-2022-kickstarter-june-15th/11036">
+              <a target="_blank" rel="noreferrer" href="https://forums.tigsource.com/index.php?topic=69415.0">
                 <img src="https://ucarecdn.com/e3a3c2a2-e03e-4d4a-a883-c4ebb463ef42/" className="tigsource" />
               </a>
             </div>

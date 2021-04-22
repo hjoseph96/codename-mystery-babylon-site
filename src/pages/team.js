@@ -5,18 +5,21 @@ import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJedi } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import '../scss/team.scss';
 import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
 import artemiiImg from '../../static/artemii.png';
+import dominicImg from '../../static/dominic.webp';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
 import mrTheNoronhaImg from '../../static/mrthenoronha.png';
 import vnittiImg from '../../static/vnitti.png';
+import nikolozImg from '../../static/nikoloz.png';
+import irinaImg from '../../static/irina.png';
 
 import SEO from "../components/seo";
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
@@ -60,7 +63,7 @@ class Team extends React.Component {
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a target="_blank" href="https://twitter.com/Copywright3">
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -77,8 +80,25 @@ class Team extends React.Component {
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a target="_blank" href="mailto:tazdraperm.dev@gmail.com">
+                  <a target="_blank" rel="noreferrer" href="mailto:tazdraperm.dev@gmail.com">
                     <span class="fab fa-gmail fa-lg"></span>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="photo">
+                <img src={dominicImg} class="artemii" alt="jirushi" />
+              </div>
+
+              <div className="info">
+                <h3>Dominic S.</h3>
+                <span className="role">Programmer</span>
+
+                <div className="socials">
+                  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCuVScY6j4BMOMzeK6yPiLSQ">
+                    <FontAwesomeIcon icon={faYoutube} />
                   </a>
                 </div>
               </div>
@@ -94,11 +114,11 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a target="_blank" href="http://www.derwincastillo.com/gallery.html">
+                  <a target="_blank" rel="noreferrer" href="http://www.derwincastillo.com/gallery.html">
                     <FontAwesomeIcon icon={faJedi} />
                   </a>
 
-                  <a href="https://twitter.com/DerwinDoki">
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/DerwinDoki">
                   <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -115,7 +135,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a target="_blank" href="https://www.facebook.com/danielnoronhapixelart">
+                  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/danielnoronhapixelart">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
                 </div>
@@ -132,7 +152,7 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a target="_blank" href="https://www.twitter.com/zaicucH">
+                  <a target="_blank" rel="noreferrer" href="https://www.twitter.com/zaicucH">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -149,12 +169,50 @@ class Team extends React.Component {
                 <span className="role">Pixel Artist</span>
 
                 <div className="socials">
-                  <a target="_blank" href="https://twitter.com/vnitti_art">
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
               </div>
             </li>
+
+
+            <li>
+              <div className="photo">
+                <img src={nikolozImg} class="pixel-artist" alt="Nikoloz Maisuradze" />
+              </div>
+
+              <div className="info">
+                <h3>Nikoloz Maisuradze</h3>
+                <span className="role">Pixel Artist</span>
+
+                <div className="socials">
+                  <a target="_blank" rel="noreferrer" href="https://www.artstation.com/yuzgar">
+                    <FontAwesomeIcon icon={faJedi} />
+                  </a>
+                </div>
+              </div>
+            </li>
+            
+
+            <li>
+              <div className="photo">
+                <img src={irinaImg} class="pixel-artist" alt="irissnebula" />
+              </div>
+
+              <div className="info">
+                <h3>Irina Savchishina</h3>
+                <span className="role">Pixel Artist</span>
+
+                <div className="socials">
+                  <a target="_blank" rel="noreferrer" href="https://instagram.com/irissnebula">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </div>
+              </div>
+            </li>
+            
+
 
             <li>
               <div className="photo">
@@ -166,13 +224,13 @@ class Team extends React.Component {
                 <span className="role">Composer</span>
 
                 <div className="socials">
-                  <a target="_blank" href="http://andrewlivecchi.com">
+                  <a target="_blank" rel="noreferrer" href="http://andrewlivecchi.com">
                     <FontAwesomeIcon icon={faJedi} />
                   </a>
-                  <a target="_blank" href="https://www.youtube.com/c/AndrewLiVecchi">
+                  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/c/AndrewLiVecchi">
                     <FontAwesomeIcon icon={faYoutube} />
                   </a>
-                  <a target="_blank" href="https://twitter.com/AndrewLivecchi">
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/AndrewLivecchi">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
