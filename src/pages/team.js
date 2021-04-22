@@ -94,7 +94,7 @@ class Team extends React.Component {
 
               <div className="info">
                 <h3>Dominic S.</h3>
-                <span className="role">Programmer</span>
+                <span className="role">Audio Engineer</span>
 
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCuVScY6j4BMOMzeK6yPiLSQ">
