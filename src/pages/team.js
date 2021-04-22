@@ -202,7 +202,7 @@ class Team extends React.Component {
 
               <div className="info">
                 <h3>Irina Savchishina</h3>
-                <span className="role">Pixel Artist</span>
+                <span className="role">UI Artist</span>
 
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://instagram.com/irissnebula">
