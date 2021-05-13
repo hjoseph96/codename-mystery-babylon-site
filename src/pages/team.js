@@ -18,7 +18,6 @@ import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
 import mrTheNoronhaImg from '../../static/mrthenoronha.png';
 import vnittiImg from '../../static/vnitti.png';
-import nikolozImg from '../../static/nikoloz.png';
 import irinaImg from '../../static/irina.png';
 
 import SEO from "../components/seo";
@@ -171,24 +170,6 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="photo">
-                <img src={nikolozImg} class="pixel-artist" alt="Nikoloz Maisuradze" />
-              </div>
-
-              <div className="info">
-                <h3>Nikoloz Maisuradze</h3>
-                <span className="role">Pixel Artist</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://www.artstation.com/yuzgar">
-                    <FontAwesomeIcon icon={faJedi} />
                   </a>
                 </div>
               </div>
