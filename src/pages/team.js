@@ -78,7 +78,7 @@ class Team extends React.Component {
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a target="_blank" rel="noreferrer" href=" www.linkedin.com/in/brahimjomni">
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brahimjomni">
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </div>
