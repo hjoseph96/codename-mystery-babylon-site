@@ -12,7 +12,6 @@ import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
 import artemiiImg from '../../static/artemii.png';
-import dominicImg from '../../static/dominic.webp';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
@@ -64,40 +63,6 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="photo">
-                <img src={artemiiImg} class="artemii" alt="Artemii" />
-              </div>
-
-              <div className="info">
-                <h3>Artemii Zotikov</h3>
-                <span className="role">Programmer</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="mailto:tazdraperm.dev@gmail.com">
-                    <span class="fab fa-gmail fa-lg"></span>
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="photo">
-                <img src={dominicImg} class="artemii" alt="jirushi" />
-              </div>
-
-              <div className="info">
-                <h3>Dominic S.</h3>
-                <span className="role">Audio Engineer</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCuVScY6j4BMOMzeK6yPiLSQ">
-                    <FontAwesomeIcon icon={faYoutube} />
                   </a>
                 </div>
               </div>
