@@ -5,13 +5,13 @@ import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJedi } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebook, faYoutube, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import '../scss/team.scss';
 import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
-import artemiiImg from '../../static/artemii.png';
+import brahimImg from '../../static/profile.png';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
@@ -63,6 +63,23 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="photo">
+                <img src={brahimImg} class="pixel-artist" alt="Brahim" />
+              </div>
+
+              <div className="info">
+                <h3>Brahim Jomni</h3>
+                <span className="role">Programmer</span>
+
+                <div className="socials">
+                  <a target="_blank" rel="noreferrer" href=" www.linkedin.com/in/brahimjomni">
+                    <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </div>
               </div>
