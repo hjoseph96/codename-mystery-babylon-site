@@ -11,7 +11,7 @@ import '../scss/team.scss';
 import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
-import brahimImg from '../../static/profile.png';
+import brahimImg from '../../static/brahim.png';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
