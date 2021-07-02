@@ -70,7 +70,7 @@ class Team extends React.Component {
 
             <li>
               <div className="photo">
-                <img src={brahimImg} class="pixel-artist" alt="Brahim" />
+                <img src={brahimImg} class="pixel-artist brahim" alt="Brahim" />
               </div>
 
               <div className="info">
