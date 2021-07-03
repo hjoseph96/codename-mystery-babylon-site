@@ -16,6 +16,7 @@ import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
 import brahimImg from '../../static/brahim.jpg';
+import codyImg from '../../static/codyphoto.jpg';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
@@ -70,6 +71,20 @@ class Team extends React.Component {
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
+                </div>
+              </div>
+            </li>
+
+             <li>
+              <div className="photo">
+                <img src={codyImg} class="pixel-artist" alt="Cosy" />
+              </div>
+
+              <div className="info">
+                <h3>Cody Cormier</h3>
+                <span className="role">Programmer</span>
+
+                <div className="socials">
                 </div>
               </div>
             </li>
