@@ -51,9 +51,20 @@
           width: 100%;
         }
       }
+      
     }
     button {
       margin-top: 25px;
+          position: relative;
+          z-index: 10;
+          color: black;
+          background-color: lightgrey;
+          height: auto;
+          width: auto;
+          border: none;
+          font-size: 25px;
+          cursor: pointer;
+          top: auto;
     }
 
     .back-home-logo {
