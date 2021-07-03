@@ -7,20 +7,18 @@ import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJedi } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faFacebook, faYoutube, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import '../scss/team.scss';
 import '../fonts/fonts.scss';
 
 import herbertImg from '../../static/copywright.gif';
-import artemiiImg from '../../static/artemii.png';
-import dominicImg from '../../static/dominic.webp';
+import brahimImg from '../../static/brahim.jpg';
 import dokitsuImg from '../../static/dokitsu.png';
 import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
 import mrTheNoronhaImg from '../../static/mrthenoronha.png';
 import vnittiImg from '../../static/vnitti.png';
-import nikolozImg from '../../static/nikoloz.png';
 import irinaImg from '../../static/irina.png';
 
 import SEO from "../components/seo";
@@ -75,33 +73,16 @@ class Team extends React.Component {
 
             <li>
               <div className="photo">
-                <img src={artemiiImg} class="artemii" alt="Artemii" />
+                <img src={brahimImg} class="pixel-artist brahim" alt="Brahim" />
               </div>
 
               <div className="info">
-                <h3>Artemii Zotikov</h3>
+                <h3>Brahim Jomni</h3>
                 <span className="role">Programmer</span>
 
                 <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="mailto:tazdraperm.dev@gmail.com">
-                    <span class="fab fa-gmail fa-lg"></span>
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="photo">
-                <img src={dominicImg} class="artemii" alt="jirushi" />
-              </div>
-
-              <div className="info">
-                <h3>Dominic S.</h3>
-                <span className="role">Audio Engineer</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCuVScY6j4BMOMzeK6yPiLSQ">
-                    <FontAwesomeIcon icon={faYoutube} />
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brahimjomni">
+                    <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </div>
               </div>
@@ -174,24 +155,6 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="photo">
-                <img src={nikolozImg} class="pixel-artist" alt="Nikoloz Maisuradze" />
-              </div>
-
-              <div className="info">
-                <h3>Nikoloz Maisuradze</h3>
-                <span className="role">Pixel Artist</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://www.artstation.com/yuzgar">
-                    <FontAwesomeIcon icon={faJedi} />
                   </a>
                 </div>
               </div>
