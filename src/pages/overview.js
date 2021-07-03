@@ -3,6 +3,10 @@ import React from "react";
 import loadable from '@loadable/component';
 import ReactFullpage from '@fullpage/react-fullpage';
 
+import NewsletterModal from "../components/NewsletterModal";
+
+
+
 import '../scss/overview.scss'
 import '../fonts/fonts.scss';
 
@@ -63,6 +67,8 @@ class Overview extends React.Component {
 
     return (
       <CookiesProvider>
+        < NewsletterModal />
+
         <div className="overview">
           <SEO
             title="Overview"

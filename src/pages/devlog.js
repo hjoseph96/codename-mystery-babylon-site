@@ -3,6 +3,8 @@ import { Link, graphql } from "gatsby"
 import loadable from '@loadable/component'
 import { CookiesProvider } from 'react-cookie';
 
+
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,6 +12,7 @@ import Button from "../components/button"
 import Navbar from "../components/Navbar"
 import SearchPosts from "../components/searchPosts"
 import BackHomeLogo from '../components/BackHomeLogo'
+import NewsletterModal from "../components/NewsletterModal";
 
 import '../scss/devlog.scss';
 
@@ -24,6 +27,7 @@ class Devlog extends React.Component {
 
     return (
       <CookiesProvider>
+        < NewsletterModal />
         <div className="devlog">
         <SEO
           title="Devlog"

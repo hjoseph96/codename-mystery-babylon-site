@@ -7,7 +7,9 @@ import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJedi } from '@fortawesome/free-solid-svg-icons'
+import NewsletterModal from "../components/NewsletterModal";
 import { faTwitter, faFacebook, faYoutube, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 import '../scss/team.scss';
 import '../fonts/fonts.scss';
@@ -29,6 +31,7 @@ class Team extends React.Component {
   render() {
     return (
       <CookiesProvider>
+        < NewsletterModal />
         <div className="team">
         <SEO
           title="Our Team"
