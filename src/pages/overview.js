@@ -6,6 +6,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import '../scss/overview.scss'
 import '../fonts/fonts.scss';
 
+import { CookiesProvider } from 'react-cookie';
 
 
 import SEO from "../components/seo";
@@ -61,30 +62,32 @@ class Overview extends React.Component {
     );
 
     return (
-      <div className="overview">
-        <SEO
-          title="Overview"
-          keywords={[
-            `Codename`,
-            `Mystery`,
-            `Babylon`,
-            `SRPG`,
-            `Fire Emblem`,
-            `Shining Force`,
-            `Indie`,
-            `Game`,
-            `Tactical`,
-            `RPG`,
-            `Occult`
-          ]}
-        />
+      <CookiesProvider>
+        <div className="overview">
+          <SEO
+            title="Overview"
+            keywords={[
+              `Codename`,
+              `Mystery`,
+              `Babylon`,
+              `SRPG`,
+              `Fire Emblem`,
+              `Shining Force`,
+              `Indie`,
+              `Game`,
+              `Tactical`,
+              `RPG`,
+              `Occult`
+            ]}
+            />
 
-        <Navbar />
-        <BackHomeLogo />
-        <PurpleSmoke />
+          <Navbar />
+          <BackHomeLogo />
+          <PurpleSmoke />
 
-        <FullPage />
-      </div>
+          <FullPage />
+        </div>
+      </CookiesProvider>
     )
   }
 }

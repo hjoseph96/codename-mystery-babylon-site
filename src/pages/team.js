@@ -1,5 +1,7 @@
 import React from 'react';
 import loadable from '@loadable/component';
+import { CookiesProvider } from 'react-cookie';
+
 
 import Navbar from '../components/Navbar';
 import BackHomeLogo from '../components/BackHomeLogo';
@@ -28,7 +30,8 @@ const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 class Team extends React.Component {
   render() {
     return (
-      <div className="team">
+      <CookiesProvider>
+        <div className="team">
         <SEO
           title="Our Team"
           keywords={[
@@ -193,7 +196,7 @@ class Team extends React.Component {
                 </div>
               </div>
             </li>
-            
+
 
             <li>
               <div className="photo">
@@ -211,7 +214,7 @@ class Team extends React.Component {
                 </div>
               </div>
             </li>
-            
+
 
 
             <li>
@@ -239,6 +242,7 @@ class Team extends React.Component {
           </ul>
         </main>
       </div>
+      </CookiesProvider>
     )
   }
 }

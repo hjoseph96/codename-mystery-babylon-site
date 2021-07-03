@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import loadable from '@loadable/component'
+import { CookiesProvider } from 'react-cookie';
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -22,7 +23,8 @@ class Devlog extends React.Component {
     const localSearchBlog = data.localSearchBlog
 
     return (
-      <div className="devlog">
+      <CookiesProvider>
+        <div className="devlog">
         <SEO
           title="Devlog"
           keywords={[
@@ -59,7 +61,7 @@ class Devlog extends React.Component {
               </a>
             </div>
           </div>
-          
+
           <Bio />
           <SearchPosts
             posts={posts}
@@ -69,6 +71,7 @@ class Devlog extends React.Component {
           />
         </Layout>
       </div>
+      </CookiesProvider>
     )
   }
 }

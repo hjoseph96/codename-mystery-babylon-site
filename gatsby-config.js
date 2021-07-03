@@ -141,5 +141,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://mysterybabylon.us6.list-manage.com/subscribe/post?u=5788bc7aa21969c007b739017&amp;id=88e631af10'
+      }
+    }
   ],
 }

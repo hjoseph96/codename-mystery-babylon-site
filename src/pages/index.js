@@ -1,7 +1,9 @@
 import React from "react";
 import loadable from '@loadable/component';
 
+import { CookiesProvider } from 'react-cookie';
 import SEO from "../components/seo";
+import NewsletterModal from "../components/NewsletterModal";
 
 import '../fonts/fonts.scss';
 import '../scss/home.scss';
@@ -10,11 +12,12 @@ import Navbar from '../components/Navbar'
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
 
 class IndexPage extends React.Component {
-  
+
 
   render() {
     return (
-      <>
+      <CookiesProvider>
+        < NewsletterModal />
         <div class="home">
           <SEO
             title="Home"
@@ -58,7 +61,7 @@ class IndexPage extends React.Component {
             </ul>
           </div>
         </div>
-      </>
+      </CookiesProvider>
     )
   }
 }
