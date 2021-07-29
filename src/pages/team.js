@@ -18,7 +18,6 @@ import herbertImg from '../../static/copywright.gif';
 import brahimImg from '../../static/brahim.jpg';
 import codyImg from '../../static/codyphoto.jpg';
 import dokitsuImg from '../../static/dokitsu.png';
-import andrewImg from '../../static/andrew.jpg';
 import zaicuchImg from '../../static/zaicuch.jpg';
 import mrTheNoronhaImg from '../../static/mrthenoronha.png';
 import vnittiImg from '../../static/vnitti.png';
@@ -196,30 +195,6 @@ class Team extends React.Component {
               </div>
             </li>
 
-
-
-            <li>
-              <div className="photo">
-                <img src={andrewImg} class="pixel-artist" alt="Andrew LiVecchi" />
-              </div>
-
-              <div className="info">
-                <h3>Andrew LiVecchi</h3>
-                <span className="role">Composer</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="http://andrewlivecchi.com">
-                    <FontAwesomeIcon icon={faJedi} />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://www.youtube.com/c/AndrewLiVecchi">
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://twitter.com/AndrewLivecchi">
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
           </ul>
         </main>
       </div>
