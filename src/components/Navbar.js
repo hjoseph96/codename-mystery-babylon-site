@@ -26,7 +26,7 @@ class Navbar extends React.Component {
               </span>
             </a>
 
-            <a href="https://discord.gg/CaJCFcXB" className="icon-button discord" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/stp9e5XcHW" className="icon-button discord" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faDiscord} className="icon-discord"/>
               <span>
               </span>
