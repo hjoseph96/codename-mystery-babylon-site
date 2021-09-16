@@ -53,10 +53,17 @@ class IndexPage extends React.Component {
           </div>
 
           <div className="coming-soon">
-            <h2>Coming Soon</h2>
             <ul class="platform-list">
-              <li class="steam">
-                <img src="./steam-logo.png" alt="Steam Logo" />
+              <li className="kickstarter">
+                <a href="https://www.kickstarter.com/projects/copywright/codename-mystery-babylon" target="_blank">
+                  <img src="./kickstarter-logo.png" alt="Kickstarter Logo" />
+                </a>
+              </li>
+
+              <li className="steam">
+                <a href="https://store.steampowered.com/app/1597250/Codename_Mystery_Babylon/" target="_blank">
+                  <img src="./steam-logo.png" alt="Steam Logo" />
+                </a>
               </li>
             </ul>
           </div>

@@ -29,6 +29,16 @@ class GameplayVideos extends React.Component {
             }
         ]
     };
+
+    var battleShowcaseThreeSrc = {
+        type: "video",
+        sources: [
+            {
+                src: "606877389",
+                provider: 'vimeo'
+            }
+        ]
+    };
     
     var mapTransitionsSrc = {
         type: "video",
@@ -75,6 +85,9 @@ class GameplayVideos extends React.Component {
             perMove: 1,
             gap    : '1rem',
         } }>
+            <SplideSlide>
+                <Plyr controls source={battleShowcaseThreeSrc} />
+            </SplideSlide>
             <SplideSlide>
                 <Plyr controls source={battleShowcaseOneSrc} />
             </SplideSlide>

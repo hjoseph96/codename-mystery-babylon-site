@@ -57,6 +57,17 @@
     text-align: center;
     margin-top: 136px;
 
+    .platform-list {
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      &.kickstarter {
+        margin: 34px 50px;
+      }
+    }
+
     h2 {
       color: lavender;
       font-family: "Revans Medium";
@@ -66,8 +77,10 @@
       text-rendering: geometricPrecision;
     }
 
+    a { text-decoration: none; border-bottom: none; box-shadow: none; }
+
     img {
-      width: 200px;
+      width: 265px;
     }
   }
 }

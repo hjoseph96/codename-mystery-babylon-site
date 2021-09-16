@@ -111,7 +111,7 @@ class NewsletterModal extends React.Component {
           </div>
 
           <div className="modal-body">
-            <p> Stay updated about the future of Codename: Mystery Babylon </p>
+            <p> Stay updated about alpha & beta testing releases.</p>
 
             <div className="mailing-list-form">
               <div className="message"  dangerouslySetInnerHTML={{ __html: this.state.message }} />
