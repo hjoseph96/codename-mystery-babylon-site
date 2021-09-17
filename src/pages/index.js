@@ -17,7 +17,6 @@ class IndexPage extends React.Component {
   render() {
     return (
       <CookiesProvider>
-        < NewsletterModal />
         <div class="home">
           <SEO
             title="Home"
