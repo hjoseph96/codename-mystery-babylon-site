@@ -22,6 +22,7 @@ import zaicuchImg from '../../static/zaicuch.jpg';
 import mrTheNoronhaImg from '../../static/mrthenoronha.png';
 import vnittiImg from '../../static/vnitti.png';
 import irinaImg from '../../static/irina.png';
+import michaelImg from '../../static/M.jpg';
 
 import SEO from "../components/seo";
 const PurpleSmoke = loadable(() => import('../components/PurpleSmoke'));
@@ -195,6 +196,16 @@ class Team extends React.Component {
               </div>
             </li>
 
+            <li>
+              <div className="photo">
+                <img src={michaelImg} class="pixel-artist" alt="michaelttrain" />
+              </div>
+
+              <div className="info">
+                <h3>Michael Orchard</h3>
+                <span className="role">Narrative Designer</span>
+              </div>
+            </li>
           </ul>
         </main>
       </div>
