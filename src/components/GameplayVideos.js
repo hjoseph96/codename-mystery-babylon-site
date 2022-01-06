@@ -15,8 +15,17 @@ class GameplayVideos extends React.Component {
         type: "video",
         sources: [
             {
-                src: "538973820",
+                src: "663094164",
                 provider: 'vimeo'
+            }
+        ]
+    };
+
+    var vaCutscene = {
+        type: "video",
+        sources: [
+            {
+                src: "/va-cutscene.mp4",
             }
         ]
     };
@@ -25,45 +34,18 @@ class GameplayVideos extends React.Component {
         type: "video",
         sources: [
             {
-                src: "/battle_sprite_showcase_2.mp4",
-            }
-        ]
-    };
-
-    var battleShowcaseThreeSrc = {
-        type: "video",
-        sources: [
-            {
-                src: "606877389",
+                src: "663098639",
                 provider: 'vimeo'
             }
         ]
     };
     
-    var mapTransitionsSrc = {
+    var fortCutsceneSrc = {
         type: "video",
         sources: [
             {
-                src: "538950487",
+                src: "663098956",
                 provider: 'vimeo'
-            }
-        ]
-    };
-
-    var arturTalkingSrc = {
-        type: "video",
-        sources: [
-            {
-                src: "/artur_talking.mp4",
-            }
-        ]
-    };
-
-    var penelopeTalkingSrc = {
-        type: "video",
-        sources: [
-            {
-                src: "/penelope_talking.mp4",
             }
         ]
     };
@@ -86,7 +68,7 @@ class GameplayVideos extends React.Component {
             gap    : '1rem',
         } }>
             <SplideSlide>
-                <Plyr controls source={battleShowcaseThreeSrc} />
+                <Plyr controls source={vaCutscene} />
             </SplideSlide>
             <SplideSlide>
                 <Plyr controls source={battleShowcaseOneSrc} />
@@ -95,14 +77,9 @@ class GameplayVideos extends React.Component {
                 <Plyr controls source={battleShowcaseTwoSrc}/>
             </SplideSlide>
             <SplideSlide>
-                <Plyr controls source={mapTransitionsSrc}/>
+                <Plyr controls source={fortCutsceneSrc}/>
             </SplideSlide>
-            <SplideSlide>
-                <Plyr controls source={arturTalkingSrc}/>
-            </SplideSlide>
-            <SplideSlide>
-                <Plyr controls source={penelopeTalkingSrc}/>
-            </SplideSlide>
+            
             <SplideSlide>
                 <Plyr controls source={startScreenSrc}/>
             </SplideSlide>

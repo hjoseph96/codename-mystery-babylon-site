@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Codename: Mystery Babylon`,
+    title: `Mystery Babylon`,
     author: `Herbert Joseph`,
-    description: `Tactical RPG inspired by Fire Emblem and Shining Force.`,
+    description: `Tactical RPG inspired by Fire Emblem, Shining Force and Suikoden II.`,
     siteUrl: `https://mysterybabylon.io/`,
     social: {
       twitter: `CodenameBabylon`,
