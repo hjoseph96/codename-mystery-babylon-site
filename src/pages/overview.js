@@ -67,8 +67,6 @@ class Overview extends React.Component {
 
     return (
       <CookiesProvider>
-        < NewsletterModal />
-
         <div className="overview">
           <SEO
             title="Overview"

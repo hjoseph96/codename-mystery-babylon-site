@@ -17,7 +17,6 @@ class IndexPage extends React.Component {
   render() {
     return (
       <CookiesProvider>
-        <NewsletterModal />
         <div class="home">
           <SEO
             title="Home"
@@ -54,12 +53,6 @@ class IndexPage extends React.Component {
 
           <div className="coming-soon">
             <ul class="platform-list">
-              <li className="kickstarter">
-                <a href="https://www.kickstarter.com/projects/copywright/codename-mystery-babylon" target="_blank">
-                  <img src="./kickstarter-logo.png" alt="Kickstarter Logo" />
-                </a>
-              </li>
-
               <li className="steam">
                 <a href="https://store.steampowered.com/app/1597250/Codename_Mystery_Babylon/" target="_blank">
                   <img src="./steam-logo.png" alt="Steam Logo" />

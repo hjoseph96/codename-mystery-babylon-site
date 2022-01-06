@@ -32,7 +32,6 @@ class Team extends React.Component {
   render() {
     return (
       <CookiesProvider>
-        < NewsletterModal />
         <div className="team">
         <SEO
           title="Our Team"
@@ -70,37 +69,6 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/Copywright3">
                     <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
-
-             <li>
-              <div className="photo">
-                <img src={codyImg} class="pixel-artist" alt="Cosy" />
-              </div>
-
-              <div className="info">
-                <h3>Cody Cormier</h3>
-                <span className="role">Programmer</span>
-
-                <div className="socials">
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="photo">
-                <img src={brahimImg} class="pixel-artist brahim" alt="Brahim" />
-              </div>
-
-              <div className="info">
-                <h3>Brahim Jomni</h3>
-                <span className="role">Programmer</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/brahimjomni">
-                    <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </div>
               </div>
@@ -173,24 +141,6 @@ class Team extends React.Component {
                 <div className="socials">
                   <a target="_blank" rel="noreferrer" href="https://twitter.com/vnitti_art">
                     <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="photo">
-                <img src={irinaImg} class="pixel-artist" alt="irissnebula" />
-              </div>
-
-              <div className="info">
-                <h3>Irina Savchishina</h3>
-                <span className="role">UI Artist</span>
-
-                <div className="socials">
-                  <a target="_blank" rel="noreferrer" href="https://instagram.com/irissnebula">
-                    <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </div>
               </div>
